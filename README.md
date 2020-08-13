@@ -4,3 +4,4 @@ Complete all challenges as listed in [this post](https://jsbeginners.com/javascr
 
 ### Challenges:
 [001](https://jsbeginners.com/change-background-color-project/): Change background color
+ - Bonus: change the text color (white on dark bgs, black on light ones), for improved readability
