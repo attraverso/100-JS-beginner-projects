@@ -1,0 +1,36 @@
+body {
+  background-color: cornflowerblue;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  margin: auto;
+  margin-top: 30vh;
+  max-width: 50%;
+  text-align: center;
+  background-color: lavender;
+  padding: 2rem;
+}
+
+.title,
+.btn {
+  text-transform: uppercase;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.number {
+  font-size: 7rem;
+  padding: 1rem;
+}
+
+.btn {
+  background-color: darkblue;
+  color: white;
+  font-size: 1.5rem;
+}
