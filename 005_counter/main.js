@@ -10,14 +10,12 @@ function addSubtract(operator) {
   let currentNumber = parseInt(document.querySelector('.number').innerHTML);
   console.log(currentNumber);
   if (operator == 'minus') {
-    let newNumber = currentNumber - 1;
-    document.querySelector('.number').innerHTML = newNumber;
-    updateColor(newNumber);
+    var newNumber = currentNumber - 1;
   } else if (operator == 'plus') {
-    let newNumber = currentNumber + 1;
-    document.querySelector('.number').innerHTML = newNumber;
-    updateColor(newNumber);
+    var newNumber = currentNumber + 1;
   }
+  document.querySelector('.number').innerHTML = newNumber;
+  updateColor(newNumber);
 }
 
 function updateColor(number) {
